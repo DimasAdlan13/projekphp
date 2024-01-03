@@ -134,7 +134,7 @@ if (isset($_POST["submit"])) {
             <button type="submit" name="submit" class="btn btn-primary btn-block">Sign In</button>
 
             <div class="form-footer mt-2">
-                <p>Don't have an account? <a href="register.php">Register</a></p>
+                <p>Don't have an account?????? <a href="register.php">Register</a></p>
             </div>
         </form>
     </div>
