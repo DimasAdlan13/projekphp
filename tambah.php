@@ -12,7 +12,7 @@
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">Aplikasi Data Pembeli</a>
+        <a class="navbar-brand" href="#">Aplikasi Data Pembelian</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,6 +36,7 @@
         <h1>Tambah Data Pembeli</h1>
 
         <form action="tambah_data.php" method="POST">
+        <form id="formTambahData">
             <div class="form-group">
                 <label for="nama">Nama:</label>
                 <input type="text" class="form-control" id="nama" name="nama" required>
@@ -68,9 +69,34 @@
                 <label for="harga">Harga:</label>
                 <input type="number" class="form-control" id="harga" name="harga" required>
             </div>
-            <button type="submit" class="btn btn-primary">Tambah</button>
+            <button type="submit" class="btn btn-primary" onclick="tambahData()">Tambah</button>
         </form>
+        <div id="pesan"></div>
+
+
     </div>
+
+<script>
+function tambahData() {
+    var form = document.getElementById("formTambahData");
+    var xhr = new XMLHttpRequest();
+    var url = "tambah_data.php"; // Ganti dengan URL yang sesuai
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            var response = xhr.responseText;
+            document.getElementById("pesan").innerHTML = response;
+            form.reset(); // Mengosongkan formulir setelah pengiriman berhasil
+        }
+    };
+
+    var formData = new FormData(form);
+    xhr.send(formData);
+}
+</script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
