@@ -108,7 +108,7 @@ if (isset($_POST["submit"])) {
             <?php } ?>
 
             <div class="form-group">
-                <label for="username">Username</label>
+                <label for="username">Usernameeeeeeee</label>
                 <input type="text" class="form-control" id="username" name="username" placeholder="Enter your username">
             </div>
 
