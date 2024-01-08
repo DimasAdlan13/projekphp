@@ -113,7 +113,7 @@ if (isset($_POST["submit"])) {
             </div>
 
             <div class="form-group">
-                <label for="InputPassword">Password</label>
+                <label for="InputPassword">Passwordddd</label>
                 <input type="password" class="form-control" id="InputPassword" name="password"
                     placeholder="Enter your password">
                 <?php if(isset($validate) && $validate != '') { ?>
