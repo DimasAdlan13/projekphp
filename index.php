@@ -17,7 +17,7 @@ header('Location: login.php');
 <html>
 
 <head>
-    <title>Aplikasi Data Pembeli</title>
+    <title>Aplikasi Data Pembeliannnn</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
