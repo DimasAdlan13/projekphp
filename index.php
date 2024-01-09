@@ -17,7 +17,7 @@ header('Location: login.php');
 <html>
 
 <head>
-    <title>Aplikasi Data Pembeli</title>
+    <title>Aplikasi Data Pembeliannnn</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         body {
@@ -29,7 +29,7 @@ header('Location: login.php');
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">Aplikasi Data Pembeli</a>
+        <a class="navbar-brand" href="#">Aplikasi Data Pembeliaaaa</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
