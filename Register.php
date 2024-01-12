@@ -188,7 +188,7 @@
 
                     <button type="submit" name="submit" class="btn btn-primary btn-block">Register</button>
                     <div class="form-footer mt-2">
-                        <p> Sudah punya account? <a href="login.php">Login</a></p>
+                        <p> Sudah punya account? <a href="login.php">Login here</a></p>
                     </div>
                 </form>
             </section>
