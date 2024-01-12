@@ -51,7 +51,7 @@ header('Location: login.php');
 
     <div class="container">
         <!-- Content -->
-        <h1>Selamat datang di Aplikasi Data Pembeli</h1>
+        <h1>Selamat datang di Aplikasi Data Pembeliaanann</h1>
         <p>Ini adalah halaman utama aplikasi.</p>
 
         <?php
